@@ -5,11 +5,11 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		Move move = new Move();
 		while(true) {
-			move.geradeBewegen(10, 10);
+			move.update();
 			
 			System.out.println(move);
 			
-			System.in.read();
+//			System.in.read();
 		}
 	}
 }
