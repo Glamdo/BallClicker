@@ -1,6 +1,8 @@
 import java.io.IOException;
 
-public class Main {
+import javax.swing.JPanel;
+
+public class Main extends JPanel{
 	
 	public static void main(String[] args) throws IOException {
 		Move move = new Move();
@@ -10,6 +12,8 @@ public class Main {
 			System.out.println(move);
 			
 //			System.in.read();
+			
+			
 		}
 	}
 }
